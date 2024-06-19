@@ -1,7 +1,5 @@
 import axios from "axios";
 
-//www.omdbapi.com/?s=avenger&sort=release_date&page=1&r=json&apikey=e6b2a375
-
 const api_key: string = "e6b2a375";
 
 export const fetchMovie = async (page: string) => {

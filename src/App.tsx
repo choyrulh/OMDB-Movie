@@ -6,7 +6,6 @@ import { RouterProvider } from "react-router-dom";
 import { SearchFilterProvider } from "./hooks/context/searchContext";
 import { Suspense, lazy } from "react";
 import Spinner from "./components/Spinner";
-import Genre from "./pages/Genre";
 
 const Home = lazy(() => import("./pages/Home"));
 const MovieDetail = lazy(() => import("./pages/MovieDetail"));
@@ -26,7 +25,6 @@ function App() {
         { path: "/page/:id", element: <Home /> },
         { path: "/detail/:id", element: <MovieDetail /> },
         { path: "/drama", element: <Drama /> },
-        { path: "/genre", element: <Genre /> },
         { path: "*", element: <NotFound /> },
       ],
     },

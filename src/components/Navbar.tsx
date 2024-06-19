@@ -47,15 +47,6 @@ function Navbar() {
                     Drama{" "}
                   </NavLink>
                 </li>
-                <li>
-                  <NavLink
-                    to="/genre"
-                    className="text-teal-600 transition hover:text-teal-600/75"
-                  >
-                    {" "}
-                    Genre{" "}
-                  </NavLink>
-                </li>
               </ul>
             </nav>
           </div>
